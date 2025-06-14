@@ -1,0 +1,277 @@
+{
+  "pages": [
+    {
+      "name": "mainpage",
+      "label": "Mainpage",
+      "type": "mainpage"
+    },
+    {
+      "name": "section",
+      "label": "Section",
+      "type": "section"
+    },
+    {
+      "name": "series",
+      "label": "Series",
+      "type": "series"
+    },
+    {
+      "name": "author",
+      "label": "Author",
+      "type": "author"
+    },
+    {
+      "name": "article",
+      "label": "Article",
+      "type": "article"
+    },
+    {
+      "name": "page",
+      "label": "Page",
+      "type": "article"
+    },
+    {
+      "name": "analysis",
+      "label": "Analysis",
+      "type": "article"
+    }
+  ],
+  "page_components": [
+    {
+      "name": "header",
+      "label": "Header",
+      "type": "page_component"
+    },
+    {
+      "name": "footer",
+      "label": "Footer",
+      "type": "page_component"
+    }
+  ],
+  "relations": [
+    {
+      "name": "element",
+      "place_type": "number",
+      "label": "is element of"
+    },
+    {
+      "name": "event",
+      "place_type": "date",
+      "label": "is event of"
+    }
+  ],
+  "strings": [
+    {
+      "name": "no-articles-found",
+      "label": "No articles found",
+      "default": "No articles have been found."
+    },
+    {
+      "name": "in-section-label",
+      "label": "In [section]",
+      "default": " — in "
+    },
+    {
+      "name": "series-label",
+      "label": "Label: series",
+      "default": "Series"
+    },
+    {
+      "name": "references-label",
+      "label": "Label: references",
+      "default": "References"
+    },
+    {
+      "name": "timeline-label",
+      "label": "Label: timeline",
+      "default": "Timeline"
+    },
+    {
+      "name": "key-elements-label",
+      "label": "Label: key elements",
+      "default": "Key elements"
+    },
+    {
+      "name": "header-search-placeholder",
+      "label": "Search placeholder",
+      "default": "Search..."
+    },
+    {
+      "name": "footer-social-header",
+      "label": "Label: footer social column",
+      "default": "Follow us"
+    },
+    {
+      "name": "footer-social-text",
+      "label": "Footer social text",
+      "default": "Subscribe to our newsletter for weekly news and analyses. Also, follow us on social media for more insights and updates!"
+    },
+    {
+      "name": "previous_articles",
+      "label": "Previous articles",
+      "default": "Previous articles"
+    },
+    {
+      "name": "initial_page",
+      "label": "Initial page",
+      "default": "Initial page"
+    },
+    {
+      "name": "next_articles",
+      "label": "Next articles",
+      "default": "Next articles"
+    },
+    {
+      "name": "published_on",
+      "label": "Published on (in the Article page)",
+      "default": "Published on"
+    },
+    {
+      "name": "last_updated_on",
+      "label": "Updated on (in the Article page)",
+      "default": "Updated on"
+    },
+    {
+      "name": "summary",
+      "label": "Summary (in the Article page)",
+      "default": "Summary"
+    },
+    {
+      "name": "notes",
+      "label": "Notes (in the Article page)",
+      "default": "Notes"
+    },
+    {
+      "name": "click_to_read",
+      "label": "Click to read (in the Article page)",
+      "default": "click to read"
+    },
+    {
+      "name": "written_by",
+      "label": "By [author] (in the Article page)",
+      "default": "By"
+    },
+    {
+      "name": "related_analyses",
+      "label": "Related analyses (in the Article page)",
+      "default": "Related analyses"
+    },
+    {
+      "name": "share",
+      "label": "Text of the share button",
+      "default": "Share"
+    },
+    {
+      "name": "feedback",
+      "label": "Text of the feedback button",
+      "default": "Feedback"
+    },
+    {
+      "name": "link",
+      "label": "Link (in references)",
+      "default": "link"
+    },
+    {
+      "name": "etal",
+      "label": "Et al. (in references)",
+      "default": "et al."
+    },
+    {
+      "name": "loccit",
+      "label": "Loc. cit. (in references)",
+      "default": "Loc. cit."
+    },
+    {
+      "name": "published_articles",
+      "label": "Published articles (in the Author page)",
+      "default": "Published articles"
+    },
+    {
+      "name": "contact",
+      "label": "Contact (in the Author page)",
+      "default": "Contact"
+    },
+    {
+      "name": "author_email",
+      "label": "Email (in the Author page)",
+      "default": "Email"
+    }
+  ],
+  "colors": [
+    {
+      "name": "page_background",
+      "default": "#fafafa",
+      "label": "Page background"
+    },
+    {
+      "name": "dividers",
+      "default": "#dcdcdc",
+      "label": "Dividers"
+    },
+    {
+      "name": "menus_background",
+      "default": "#101010",
+      "label": "Menu background"
+    },
+    {
+      "name": "secondary_text",
+      "default": "#808080",
+      "label": "Secondary text"
+    },
+    {
+      "name": "menu_link_onhover",
+      "default": "#ffff00",
+      "label": "Menu link on hover"
+    },
+    {
+      "name": "primary_text",
+      "default": "#101010",
+      "label": "Primary text"
+    },
+    {
+      "name": "lower_contrast_text",
+      "default": "#202020",
+      "label": "Lower contrast text"
+    },
+    {
+      "name": "articles_title",
+      "default": "#a01010",
+      "label": "Article title"
+    },
+    {
+      "name": "articles_title_onhover",
+      "default": "#300000",
+      "label": "Article title on hover"
+    },
+    {
+      "name": "search_results_border",
+      "default": "#808080",
+      "label": "Search result border"
+    },
+    {
+      "name": "search_results_title",
+      "default": "#101010",
+      "label": "Search result title"
+    },
+    {
+      "name": "search_results_subtitle",
+      "default": "#2f4f4f",
+      "label": "Search result subtitle"
+    },
+    {
+      "name": "reference_onhover",
+      "default": "#eaeaea",
+      "label": "Reference text on hover"
+    },
+    {
+      "name": "reference_part_onhover",
+      "default": "#dadada",
+      "label": "Reference part on hover"
+    },
+    {
+      "name": "photo_label_background",
+      "default": "#202020",
+      "label": "Photo label background"
+    }
+  ]
+}
